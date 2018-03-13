@@ -1,14 +1,13 @@
 import React from 'react';
 import { View } from 'react-native';
 
-import Topo from './components/Topo';
-import Resultado from './components/Resultado';
-import Painel from './components/Painel';
+//Como é o arquivo index, não há a necessidade de colocar ./components/index
+import { Topo, Resultado, Painel } from './components';
 
 export default props => (
-  <View>
-    <Topo />
-    <Resultado />
-    <Painel />
-  </View>
+    <View>
+        <Topo />
+        <Resultado />
+        <Painel />
+    </View>
 );
