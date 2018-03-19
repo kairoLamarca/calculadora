@@ -7,6 +7,7 @@ export default props => (
             style={styles.visor}
             placeholder='Resultado'
             editable={false}
+            value={props.resultado}
         />
     </View>
 );
